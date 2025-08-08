@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>一键降低音质</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>一键降低音质</h1>
+    <input type="file" id="audioUpload" accept="audio/*">
+    <button id="settingsButton" class="green-button">设置效果</button>
+    <button id="processButton" class="green-button">处理音频</button>
+    <button id="downloadButton" class="green-button" disabled>下载处理后的音频</button>
+    <audio id="processedAudio" controls hidden></audio>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
